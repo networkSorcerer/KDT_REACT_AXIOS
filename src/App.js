@@ -1,11 +1,11 @@
-import "./App.css";
+import News from "./pages/News";
 
-function App() {
+const App = () => {
   return (
     <>
-      <p>App.js</p>
+      <News />;
     </>
   );
-}
+};
 
 export default App;
