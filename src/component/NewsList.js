@@ -23,13 +23,14 @@ const sampleArticle = {
   urlToImage: "http://via.placeholder.com/160",
 };
 
-const NewsList = () => {
+const NewsList = ({ category }) => {
   const [articles, setArticles] = useState(null);
   useEffect(() => {
     const fetchData = async () => {
       try {
+        const query = category === "all" ? "all" : `category=${category}`;
         const response = await axios.get(
-          "https://newsapi.org/v2/top-headlines?country=us&apiKey=ffbbc82f694941a7b0e2d4f4515abcc7"
+          `https://newsapi.org/v2/top-headlines?country=us&${query}&apiKey=ffbbc82f694941a7b0e2d4f4515abcc7`
         );
         setArticles(response.data.articles);
       } catch (e) {
