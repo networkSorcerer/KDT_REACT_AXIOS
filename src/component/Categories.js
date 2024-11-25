@@ -9,7 +9,7 @@ const categories = [
     text: "비즈니스",
   },
   {
-    name: "entertaiment",
+    name: "entertainment",
     text: "엔터테이먼트",
   },
   {
