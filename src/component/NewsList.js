@@ -37,7 +37,7 @@ const NewsList = () => {
       }
     };
     fetchData();
-  }, []);
+  }, []); // 의존성 배열이 비어있으면 mount 시점(즉, 컴퍼넌트 렌더링 이후 )에 호출
   return (
     <NewsListBlock>
       {articles &&
