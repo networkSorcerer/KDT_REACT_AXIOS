@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KDT_REACT_AXIOS/static/css/main.e6c13ad2.css",
+    "main.js": "/KDT_REACT_AXIOS/static/js/main.bde96923.js",
+    "index.html": "/KDT_REACT_AXIOS/index.html",
+    "main.e6c13ad2.css.map": "/KDT_REACT_AXIOS/static/css/main.e6c13ad2.css.map",
+    "main.bde96923.js.map": "/KDT_REACT_AXIOS/static/js/main.bde96923.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.bde96923.js"
+  ]
+}
